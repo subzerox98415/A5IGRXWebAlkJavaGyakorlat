@@ -24,7 +24,7 @@ body
 {
  animation: 1s ease-out 0s 1 slideInFromLeft;
   
-background-color:#b5b5b5;
+background-color:#e5e5e5;
 }
 
 ul {
@@ -122,7 +122,8 @@ table
 table-layout: auto;
 width: 90%;  
 position:relative;
-border:2px solid #eed520;
+border:3px solid #eed520;
+border-radius:10px;
 font-size:20px;
 }
 td
@@ -169,30 +170,30 @@ padding:30px;
 			<thead>
 				<tr>
 					<th>
-						<a th:href="@{'/page/' + ${currentPage} + '?sortField=termnev&sortDir=' + ${reverseSortDir}}"style="color:white">
+						<a th:href="@{'/page/' + ${currentPage} + '?sortField=termnev&sortDir=' + ${reverseSortDir}}"style="color:black">
 							Termék neve</a>
 					</th>
 					<th>
-					<a th:href="@{'/page/' + ${currentPage} + '?sortField=azonosito&sortDir=' + ${reverseSortDir}}"style="color:white">
+					<a th:href="@{'/page/' + ${currentPage} + '?sortField=azonosito&sortDir=' + ${reverseSortDir}}"style="color:black">
 							Azonosító</a>
 					</th>
 					<th>
-					<a th:href="@{'/page/' + ${currentPage} + '?sortField=db&sortDir=' + ${reverseSortDir}}" style="color:white">
+					<a th:href="@{'/page/' + ${currentPage} + '?sortField=db&sortDir=' + ${reverseSortDir}}" style="color:black">
 							Darabszám</a>
 					</th>
 					<th>
-					<p  style="color:white">Bruttó Összeg</p>
+					<p  style="color:black">Bruttó Összeg</p>
 					</th>
 					<th>
-					<p  style="color:white">Nettó Összeg</p>
+					<p  style="color:black">Nettó Összeg</p>
 					</th>
 					<th>
-					<p  style="color:white">Árrés Mértéke</p>
+					<p  style="color:black">Árrés Mértéke</p>
 					</th>
 					<th>
-					<p  style="color:white">Eladási ár</p>
+					<p  style="color:black">Eladási ár</p>
 					</th>
-					<th ><p style="color:white"> Műveletek</p> </th>
+					<th ><p style="color:black"> Műveletek</p> </th>
 				</tr>
 			</thead>
 			<tbody>
